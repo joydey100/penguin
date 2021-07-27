@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin | E-Commerce Fashion</title>
+
+    <!-- Tailwind CSS -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Header Section -->
+    <header class="bg-yellow-50">
+      <!-- Navigation -->
+      <div
+        class="
+          w-11/12
+          container
+          py-7
+          mx-auto
+          flex flex-wrap flex-col
+          md:flex-row
+          items-center
+        "
+      >
+        <a
+          class="
+            flex
+            title-font
+            font-medium
+            items-center
+            text-gray-900
+            mb-4
+            md:mb-0
+          "
+        >
+          <img src="icons/Group33072.png" alt="logo" class="w-60" />
+        </a>
+        <nav
+          class="
+            md:ml-auto
+            flex flex-wrap
+            items-center
+            text-base text-lg
+            justify-center
+          "
+        >
+          <a class="mr-5 hover:text-gray-900 cursor-pointer font-medium"
+            >Home</a
+          >
+          <a class="mr-5 hover:text-gray-900 cursor-pointer font-medium"
+            >Product</a
+          >
+          <a class="mr-5 hover:text-gray-900 cursor-pointer font-medium"
+            >About Us</a
+          >
+          <a class="mr-5 hover:text-gray-900 cursor-pointer font-medium"
+            >Contact Us</a
+          >
+        </nav>
+      </div>
+
+      <!-- Banner Section -->
+      <section
+        class="banner w-11/12 container mx-auto py-20 md:flex items-center"
+      >
+        <div class="banner-left space-y-4 lg:w-6/12">
+          <h2 class="text-6xl uppercase font-bold">
+            <span class="block text-yellow-400"> Be the Penguins</span>
+            <span class="block text-gray-800">of Winter </span>
+          </h2>
+          <p class="text-lg text-gray-600 lg:w-5/6">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <a
+            href="#"
+            class="
+              inline-block
+              px-8
+              py-3
+              bg-gray-800
+              text-white
+              uppercase
+              font-medium
+              rounded
+            "
+            class="text-lg"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 inline"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+            Buy Now</a
+          >
+        </div>
+        <div class="banner-right lg:w-6/12 mt-12 md:mt-0">
+          <img src="images/model.png" alt="model" class="lg:w-full mx-auto" />
+        </div>
+      </section>
+    </header>
+
+    <!-- Main Section -->
+    <main class="w-11/12 container mx-auto py-10">
+      <!-- Womens Jacket -->
+      <section class="women-jacket mt-20">
+        <h2 class="text-3xl uppercase text-gray-800 font-bold mb-8">
+          Woman Jacket
+        </h2>
+        <div
+          class="woman-container md:grid lg:grid-cols-3 md:grid-cols-2 gap-5"
+        >
+          <!-- Single Card -->
+          <div class="single-card space-y-4 p-4 shadow-lg">
+            <div class="img-thum bg-gray-200 rounded-lg py-6">
+              <img
+                src="images/jacket-1.png"
+                alt="jacket-1"
+                class="h-64 mx-auto"
+              />
+            </div>
+            <h2 class="text-2xl text-gray-800 font-bold">Yellow Coat Jacket</h2>
+            <p class="text-lg">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="details lg:flex justify-between">
+              <div class="price">
+                <h2 class="text-4xl text-yellow-500 font-bold">$234</h2>
+              </div>
+              <a
+                href="#"
+                class="
+                  details-btn
+                  inline-block
+                  px-8
+                  py-3
+                  mt-4
+                  lg:mt-0
+                  bg-gray-800
+                  text-white
+                  uppercase
+                  font-medium
+                  rounded
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 inline"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                By Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="single-card space-y-4 p-4 shadow-lg">
+            <div class="img-thum bg-gray-200 rounded-lg py-6">
+              <img
+                src="images/jacket-2.png"
+                alt="jacket-2"
+                class="h-64 mx-auto"
+              />
+            </div>
+            <h2 class="text-2xl text-gray-800 font-bold">Ladies Jacket</h2>
+            <p class="text-lg">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="details lg:flex justify-between">
+              <div class="price">
+                <h2 class="text-4xl text-yellow-500 font-bold">$234</h2>
+              </div>
+              <a
+                href="#"
+                class="
+                  details-btn
+                  inline-block
+                  px-8
+                  py-3
+                  mt-4
+                  lg:mt-0
+                  bg-gray-800
+                  text-white
+                  uppercase
+                  font-medium
+                  rounded
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 inline"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                By Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="single-card space-y-4 p-4 shadow-lg">
+            <div class="img-thum bg-gray-200 rounded-lg py-6">
+              <img
+                src="images/jacket-3.png"
+                alt="jacket-3"
+                class="h-64 mx-auto"
+              />
+            </div>
+            <h2 class="text-2xl text-gray-800 font-bold">
+              Woman's leather Jacket
+            </h2>
+            <p class="text-lg">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="details lg:flex justify-between">
+              <div class="price">
+                <h2 class="text-4xl text-yellow-500 font-bold">$234</h2>
+              </div>
+              <a
+                href="#"
+                class="
+                  details-btn
+                  inline-block
+                  px-8
+                  py-3
+                  mt-4
+                  lg:mt-0
+                  bg-gray-800
+                  text-white
+                  uppercase
+                  font-medium
+                  rounded
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 inline"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                By Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mans Jacket -->
+      <section class="man-jacket mt-20">
+        <h2 class="text-3xl uppercase text-gray-800 font-bold mb-8">
+          Man Jacket
+        </h2>
+        <div class="man-container md:grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+          <!-- Single Card -->
+          <div class="single-card space-y-4 p-4 shadow-lg">
+            <div class="img-thum bg-gray-200 rounded-lg py-6">
+              <img
+                src="images/jacket-4.png"
+                alt="jacket-4"
+                class="h-64 mx-auto"
+              />
+            </div>
+            <h2 class="text-2xl text-gray-800 font-bold">
+              Snowboard Jacket Mens
+            </h2>
+            <p class="text-lg">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="details lg:flex justify-between">
+              <div class="price">
+                <h2 class="text-4xl text-yellow-500 font-bold">$234</h2>
+              </div>
+              <a
+                href="#"
+                class="
+                  details-btn
+                  inline-block
+                  px-8
+                  py-3
+                  mt-4
+                  lg:mt-0
+                  bg-gray-800
+                  text-white
+                  uppercase
+                  font-medium
+                  rounded
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 inline"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                By Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="single-card space-y-4 p-4 shadow-lg">
+            <div class="img-thum bg-gray-200 rounded-lg py-6">
+              <img
+                src="images/jacket-5.png"
+                alt="jacket-5"
+                class="h-64 mx-auto"
+              />
+            </div>
+            <h2 class="text-2xl text-gray-800 font-bold">
+              Man Leather Jackets
+            </h2>
+            <p class="text-lg">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="details lg:flex justify-between">
+              <div class="price">
+                <h2 class="text-4xl text-yellow-500 font-bold">$234</h2>
+              </div>
+              <a
+                href="#"
+                class="
+                  details-btn
+                  inline-block
+                  px-8
+                  py-3
+                  mt-4
+                  lg:mt-0
+                  bg-gray-800
+                  text-white
+                  uppercase
+                  font-medium
+                  rounded
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 inline"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                By Now
+              </a>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="single-card space-y-4 p-4 shadow-lg">
+            <div class="img-thum bg-gray-200 rounded-lg py-6">
+              <img
+                src="images/jacket-6.png"
+                alt="jacket-6"
+                class="h-64 mx-auto"
+              />
+            </div>
+            <h2 class="text-2xl text-gray-800 font-bold">Man Casual Jackets</h2>
+            <p class="text-lg">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="details lg:flex justify-between">
+              <div class="price">
+                <h2 class="text-4xl text-yellow-500 font-bold">$234</h2>
+              </div>
+              <a
+                href="#"
+                class="
+                  details-btn
+                  inline-block
+                  px-8
+                  py-3
+                  mt-4
+                  lg:mt-0
+                  bg-gray-800
+                  text-white
+                  uppercase
+                  font-medium
+                  rounded
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 inline"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                By Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info Section -->
+      <section class="info mt-48">
+        <div class="info-container lg:flex items-center">
+          <div
+            class="
+              info-content-left
+              lg:w-2/6
+              w-full
+              space-y-8
+              order-last
+              lg:order-first
+            "
+          >
+            <!-- info card -->
+            <div
+              class="
+                info-card
+                lg:flex
+                text-center
+                lg:text-left
+                items-center
+                mb-8
+                lg:mb-0
+              "
+            >
+              <div class="info-thumb">
+                <img
+                  src="icons/image12.png"
+                  alt="shopping"
+                  class="w-28 mx-auto"
+                />
+              </div>
+              <div class="info-details space-y-2 ml-4">
+                <h2 class="text-2xl font-bold text-gray-800">
+                  Find the Perfect Feet
+                </h2>
+                <p class="text-lg font-normal">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+
+            <!-- info card -->
+            <div
+              class="
+                info-card
+                lg:flex
+                text-center
+                lg:text-left
+                items-center
+                mb-8
+                lg:mb-0
+              "
+            >
+              <div class="info-thumb">
+                <img
+                  src="icons/image13.png"
+                  alt="shopping"
+                  class="w-28 mx-auto"
+                />
+              </div>
+              <div class="info-details space-y-2 ml-4">
+                <h2 class="text-2xl font-bold text-gray-800">Free Exchanges</h2>
+                <p class="text-lg font-normal">
+                  One of the many reasons you can shop with peace of mind.
+                </p>
+              </div>
+            </div>
+
+            <!-- info card -->
+            <div
+              class="
+                info-card
+                lg:flex
+                text-center
+                lg:text-left
+                items-center
+                mb-8
+                lg:mb-0
+              "
+            >
+              <div class="info-thumb">
+                <img
+                  src="icons/image14.png"
+                  alt="shopping"
+                  class="w-28 mx-auto"
+                />
+              </div>
+              <div class="info-details space-y-2 ml-4">
+                <h2 class="text-2xl font-bold text-gray-800">
+                  Contact Our Seller
+                </h2>
+                <p class="text-lg font-normal">
+                  They are here to help you. That's quite literally what we pay
+                  them for.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              info-content-right
+              lg:w-4/6
+              w-full
+              mt-20
+              lg:mt-0
+              order-first
+              lg:order-last
+            "
+          >
+            <img
+              src="images/shopping.png"
+              alt="shoping"
+              class="lg:w-10/12 w-full mx-auto"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center mt-20 mb-4">
+      <p class="text-gray-500">&copy; Copyright Reserved by Penguin</p>
+    </footer>
+  </body>
+</html>
